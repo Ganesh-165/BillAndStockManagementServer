@@ -1,0 +1,19 @@
+{
+  "name": "billandstockmanagementserver",
+  "version": "1.0.0",
+  "description": "Application Server for Bill and Stock Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganesh-165/BillAndStockManagementServer.git"
+  },
+  "author": "Ganesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ganesh-165/BillAndStockManagementServer/issues"
+  },
+  "homepage": "https://github.com/Ganesh-165/BillAndStockManagementServer#readme"
+}
