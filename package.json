@@ -4,6 +4,7 @@
   "description": "Application Server for Bill and Stock Management",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/Ganesh-165/BillAndStockManagementServer/issues"
   },
-  "homepage": "https://github.com/Ganesh-165/BillAndStockManagementServer#readme"
+  "homepage": "https://github.com/Ganesh-165/BillAndStockManagementServer#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
