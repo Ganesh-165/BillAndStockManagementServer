@@ -2,18 +2,14 @@ const mongoose = require("mongoose");
 
 const itemModal = new mongoose.Schema(
   {
-    itemId: {
+    _id: {
       type: Number,
       required: true,
     },
     itemName: {
       type: String,
       required: true,
-    },
-    itemDetails: {
-      type: Array,
-      required: true,
-    },
+    }
   },
   { timestamps: true }
 );

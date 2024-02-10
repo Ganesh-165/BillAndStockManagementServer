@@ -14,13 +14,17 @@ const singleItemModal = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    itemPrice: {
+      type: Number,
+      required: true,
+    },
   },
   { timestamps: true }
 );
 
 const singleItemCollection = mongoose.model(
   "singleItemCollection",
-  singleItemCollection
+  singleItemModal
 );
 
 module.exports = singleItemCollection;
